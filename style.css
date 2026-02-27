@@ -114,3 +114,65 @@ footer {
         text-align: center;
     }
 }
+.navbar {
+    background: #0b1f3a;
+    padding: 12px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-box {
+    display: flex;
+    align-items: center;
+}
+
+.logo-box img {
+    height: 55px;
+    margin-right: 12px;
+}
+
+.brand-text h1 {
+    font-size: 18px;
+    color: white;
+    margin: 0;
+}
+
+.brand-text span {
+    font-size: 12px;
+    color: #f4b400;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #f4b400;
+}
+
+.nav-btn {
+    background: #f4b400;
+    padding: 8px 15px;
+    border-radius: 4px;
+    color: black;
+}
